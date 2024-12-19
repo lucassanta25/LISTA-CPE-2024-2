@@ -6,13 +6,13 @@ int main()
 {
     int senha;
     
-    cout << "insira a senha:" << endl;
+    cout << "INSIRA A SENHA:" << endl;
     cin >> senha;
     
     if(senha==1234){
-        cout << "senha valida." << endl;
+        cout << "ACESSO PERMITIDO" << endl;
     }else{
-        cout<<"senha invalida. "<< endl;
+        cout<<"ACESSO NEGADO"<< endl;
     }
 
     return 0;
