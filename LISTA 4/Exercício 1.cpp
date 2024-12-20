@@ -1,11 +1,9 @@
-
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
 double conversao(double C){
-    double F = (C*9/5)+32;
-    return F;
+ return (C*9/5)+32;;
 }
 int main()
 {
@@ -14,7 +12,7 @@ int main()
     cout << fixed << setprecision(2);
     for (double Celsius=0;Celsius<=100; Celsius++){
         double Fahrenheit = conversao(Celsius);
-        cout <<"C "<< Celsius <<"             "<<Fahrenheit << endl;
+        cout <<"C "<< Celsius <<"         "<< "F "<<Fahrenheit << endl;
     
     }
     return 0;
